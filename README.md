@@ -11,3 +11,5 @@
 10. In Results not defied what **_Warning_** about.
 11. Remove **_w_** and **_h_** from class variables.
 12. Change in formula **_"h * h"_** to _**"Math.pow(h,2)"**_.
+13. In Results sort **_if_** by increase and add **_else_** between **_if_** to
+    make code easier for system.

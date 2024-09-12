@@ -16,17 +16,14 @@ class humanBodyMassIndex {
 
     public static String Conclusions() {
         String conclusion = "";
-        if (BodyMassIndex >= 18.5 & BodyMassIndex < 25) {
-            conclusion = "Your weight is normal!";
-        }
-        if (BodyMassIndex >= 25 & BodyMassIndex < 30) {
-            conclusion = "Warning you close to overweight!";
-        }
-        if (BodyMassIndex >= 30) {
-            conclusion = "You overweight!";
-        }
         if (BodyMassIndex < 18.5) {
             conclusion = "You underweight!";
+        } else if (BodyMassIndex >= 18.5 & BodyMassIndex < 25) {
+            conclusion = "Your weight is normal!";
+        } else if (BodyMassIndex >= 25 & BodyMassIndex < 30) {
+            conclusion = "Warning you close to overweight!";
+        } else if (BodyMassIndex >= 30) {
+            conclusion = "You overweight!";
         }
         return "Conclusion: " + conclusion;
     }
